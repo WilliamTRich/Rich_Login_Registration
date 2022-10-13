@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+    <h1>Welcome {{ session['first_name'] }}</h1>
+    <a href="/logout" class="btn btn-primary">Log Out</a>
+{% endblock %}
